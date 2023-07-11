@@ -1,13 +1,19 @@
-.body{
+*{
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Rasa', serif;
 }
 .banner{
-    width: 1920px;
+    /* width: 1920px;
 height: 850px;
 flex-shrink: 0;
-background: rgba(229, 84, 115, 0.10);
+background: rgba(229, 84, 115, 0.10); */
+align-items: center;
+
+
+
+
+
  
 }
 .banner-title{
@@ -16,10 +22,29 @@ width: 708px;
 flex-direction: column;
 flex-shrink: 0;
 color: #272727;
-font-family: Lato;
 font-size: 80px;
 font-style: normal;
+font-family: josefin sans;
 font-weight: 800;
 line-height: normal;
 padding: 197px 972px 365px 240px;
+margin-top: 0px;
+
+}
+.banner-content{
+    border: 4017px;
+}
+.header{
+    width: 1920px;
+height: 850px;
+flex-shrink: 0;
+background: rgba(229, 84, 115, 0.10);
+}
+.banner-flower{
+    width: 635px;
+height: 800px;
+/* flex-shrink: 0; */
+/* margin: 50px 240px 4017px 1045px; */
+align-items: right;
+
 }
